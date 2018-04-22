@@ -1,0 +1,51 @@
+body { /* This is how to customize parts in the main body */
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', serif;
+    background-color: rgb(222, 230, 191); /* This changes the colour of the background, i have used a custom colour here*/
+    
+ }
+
+ .nav {
+        background-color: rgb(60, 72, 110); /* navigation bar customization */
+        list-style: none;
+        text-align: center; /* positioning text in nav bar */
+        padding: 15px 0 65px 0; /* putting how much space between text and border */
+ }
+
+ .nav > li {
+        display: inline-block;
+        padding: 0 25px 0 25px;
+        font-size: 20px; /* change nav bar text size */
+}
+
+.nav > li > a { /* changing the colour and font style of the nav bar text */
+        text-decoration: none;
+        color: #000000;
+        font-family: 'Lucida Sans Unicode', serif;
+}
+
+.nav > li > a:hover { /* when hovered on this is what nav bar text will change to */
+        color: crimson; 
+        font-size: 25px;
+}
+.Logo {
+        float: left; /* position of logo */
+}
+.banner {
+        width: 100%;
+        display: block;
+}
+.banner > .banner-image {
+    width: 100%;
+    display: block;   
+}
+
+
+footer { /* footer customization */
+    width: 100%;
+    background: rgb(60, 72, 110);
+    color: white;
+    padding: 10px 10px 10px 10px;
+    text-align: center;
+}
